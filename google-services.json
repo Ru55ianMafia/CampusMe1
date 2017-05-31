@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "50465116413",
+    "firebase_url": "https://campusme-59a81.firebaseio.com",
+    "project_id": "campusme-59a81",
+    "storage_bucket": "campusme-59a81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50465116413:android:19fd604ede53edae",
+        "android_client_info": {
+          "package_name": "campusme.campusme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50465116413-025eehmv3ilicg8e579b5drh5jhhe2dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpJiAOlsF3Dx2TIjOFgxKOkFzBxIqj7uM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
