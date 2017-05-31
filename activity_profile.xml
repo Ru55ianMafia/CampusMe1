@@ -1,0 +1,108 @@
+<!--
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#edecff"
+    tools:context="campusme.campusme.Profile">-->
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#edecff"
+    android:orientation="vertical"
+    tools:context="campusme.campusme.Profile">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorTabs"
+                    >
+                </android.support.design.widget.TabLayout>
+                <android.support.v4.view.ViewPager
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/viewPager">
+                </android.support.v4.view.ViewPager>
+
+
+                <!--CONTENT BEGINS HERE-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/MCProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="15dp"
+                        android:text="My Profile"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#402ec9"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:id="@+id/profileImage"
+                        android:layout_width="210dp"
+                        android:layout_height="210dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="42dp"
+                        android:maxWidth="42dp"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:id="@+id/displayUsername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:text="username"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#402ec9"
+                        android:typeface="normal" />
+
+                    <Button
+                        android:id="@+id/bLogout"
+                        android:layout_width="200dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="40dp"
+                        android:background="#402ec9"
+                        android:text="Logout"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout><!-- </ScrollView> -->
