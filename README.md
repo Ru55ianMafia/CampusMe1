@@ -1,1 +1,3 @@
-# CampusMe1
+# CampusMe
+
+#CampusMe paused development momentarily
